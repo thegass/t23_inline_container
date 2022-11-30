@@ -26,7 +26,7 @@ class AddFieldToAllContainers {
                 ',',
                 $containerRegistry->getRegisteredCTypes()
             ),
-            'after:header'
+            'before:--div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance'
         );
 
         $event->setTca($GLOBALS['TCA']);
